@@ -1,0 +1,12 @@
+IP,Date,Time,Accepted-cookies,Device type,Browser anguage,Browser name,OS Name,Country,Region,RegionName,City,Zipcode,Lat,Lon
+49.36.83.154,2023-06-10,11:24:47 UTC,necessary,desktop,en,Chrome,Linux,India,GJ,Gujarat,Surat,395007,21.1888,72.8293
+175.157.118.126,2024-11-16,14:57:32 UTC,necessary,mobile,en,Chrome,Android,Sri Lanka,1,Western Province,Colombo,11618,6.9584,80.0047
+152.59.33.116,2024-11-19,09:18:04 UTC,necessary,mobile,en,Chrome,Android,India,GJ,Gujarat,Surat,394101,21.1888,72.8293
+175.157.174.9,2024-11-20,09:54:52 UTC,necessary,desktop,en,Firefox,Windows,Sri Lanka,1,Western Province,Padukka,10500,6.8401,80.0908
+175.157.174.9,2024-11-20,09:59:57 UTC,necessary,desktop,en,Firefox,Windows,Sri Lanka,1,Western Province,Padukka,10500,6.8401,80.0908
+95.75.194.28,2024-11-21,17:10:21 UTC,necessary,desktop,it,Chrome,Windows,Italy,25,Lombardy,Pavia,27100,45.1976,9.1578
+189.158.114.22,2024-11-22,01:16:41 UTC,necessary,desktop,es,Chrome,Windows,Mexico,NLE,Nuevo León,General Escobedo,66059,25.7706,-100.2949
+66.29.159.254,2024-11-25,08:00:36 UTC,necessary,desktop,uk,Chrome,Windows,United States,AZ,Arizona,Phoenix,85001,33.4484,-112.074
+66.29.159.254,2024-11-25,08:02:03 UTC,necessary,desktop,en,Firefox,Windows,United States,AZ,Arizona,Phoenix,85001,33.4484,-112.074
+184.147.129.156,2024-11-25,23:57:56 UTC,necessary,desktop,en,Edge,Windows,Canada,ON,Ontario,Ottawa,K2C,45.3677,-75.7357
+175.157.167.227,2024-11-26,09:22:10 UTC,necessary,desktop,en,Chrome,Windows,Sri Lanka,2,Central Province,Kandy,00200,7.3367,80.5179

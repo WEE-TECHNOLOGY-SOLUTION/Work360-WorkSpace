@@ -1,0 +1,57 @@
+{
+                        "lang": "en",
+                        "name": "Work360",
+                        "short_name": "Work360",
+                        "start_url": "https://dashboard.work360.space/",
+                        "display": "standalone",
+                        "background_color": "#000000",
+                        "theme_color": "#ffffff",
+                        "orientation": "portrait",
+                        "categories": [
+                            "shopping"
+                        ],
+                        "icons": [
+                            {
+                                "src": "https://work360space.s3.eu-north-1.amazonaws.com/logo/favicon_1725601097.png",
+                                "sizes": "128x128",
+                                "type": "image/png",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://work360space.s3.eu-north-1.amazonaws.com/logo/favicon_1725601097.png",
+                                "sizes": "144x144",
+                                "type": "image/png",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://work360space.s3.eu-north-1.amazonaws.com/logo/favicon_1725601097.png",
+                                "sizes": "152x152",
+                                "type": "image/png",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://work360space.s3.eu-north-1.amazonaws.com/logo/favicon_1725601097.png",
+                                "sizes": "192x192",
+                                "type": "image/png",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://work360space.s3.eu-north-1.amazonaws.com/logo/favicon_1725601097.png",
+                                "sizes": "256x256",
+                                "type": "image/png",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://work360space.s3.eu-north-1.amazonaws.com/logo/favicon_1725601097.png",
+                                "sizes": "512x512",
+                                "type": "image/png",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://work360space.s3.eu-north-1.amazonaws.com/logo/favicon_1725601097.png",
+                                "sizes": "1024x1024",
+                                "type": "image/png",
+                                "purpose": "any"
+                            }
+                        ]
+                    }

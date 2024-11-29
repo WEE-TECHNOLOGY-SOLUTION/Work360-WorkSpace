@@ -1,0 +1,12 @@
+// how to setup add-on : https://workdo.io/documents/how-to-set-up-add-on-in-workdo/
+
+
+//add below line in composer.json file's require section
+
+"workdo/paypal": "dev-main"
+
+
+
+// then open your project's terminal and run below command
+
+composer update workdo/*

@@ -1,0 +1,17 @@
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Node.js dependencies
+node_modules/
+
+
+# Other sensitive files
+secrets.json
+config.yaml
+
+#Removeing Vendor file
+
+**/vendor/

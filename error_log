@@ -1,0 +1,597 @@
+[19-Sep-2024 06:56:03 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(455): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(432): Symfony\Component\HttpFoundation\Response->_toString()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(208): Symfony\Component\HttpFoundation\Response->setContent()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(825): Symfony\Component\HttpFoundation\Response->__construct()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(805): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#10 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#11 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#12 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 07:25:59 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 07:30:21 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 07:43:23 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 07:44:29 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:18:31 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:30:21 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:43:17 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:43:23 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:44:02 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:44:05 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:45:48 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:45:51 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:45:52 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:47:53 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(455): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(432): Symfony\Component\HttpFoundation\Response->_toString()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(208): Symfony\Component\HttpFoundation\Response->setContent()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(825): Symfony\Component\HttpFoundation\Response->__construct()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(805): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#10 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#11 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#12 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:47:54 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(455): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(432): Symfony\Component\HttpFoundation\Response->_toString()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(208): Symfony\Component\HttpFoundation\Response->setContent()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(825): Symfony\Component\HttpFoundation\Response->__construct()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(805): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#10 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#11 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#12 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:47:58 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(455): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(432): Symfony\Component\HttpFoundation\Response->_toString()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(208): Symfony\Component\HttpFoundation\Response->setContent()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(825): Symfony\Component\HttpFoundation\Response->__construct()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(805): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#10 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#11 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#12 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:48:02 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(455): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(432): Symfony\Component\HttpFoundation\Response->_toString()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(208): Symfony\Component\HttpFoundation\Response->setContent()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(825): Symfony\Component\HttpFoundation\Response->__construct()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(805): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#10 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#11 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#12 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:51:00 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:54:02 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#9 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#10 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#11 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:55:14 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(455): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(432): Symfony\Component\HttpFoundation\Response->_toString()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(208): Symfony\Component\HttpFoundation\Response->setContent()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(825): Symfony\Component\HttpFoundation\Response->__construct()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(805): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#10 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#11 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#12 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:57:01 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(455): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(432): Symfony\Component\HttpFoundation\Response->_toString()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(208): Symfony\Component\HttpFoundation\Response->setContent()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(825): Symfony\Component\HttpFoundation\Response->__construct()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(805): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#10 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#11 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#12 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:57:58 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(455): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(432): Symfony\Component\HttpFoundation\Response->_toString()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(208): Symfony\Component\HttpFoundation\Response->setContent()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(825): Symfony\Component\HttpFoundation\Response->__construct()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(805): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#10 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#11 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#12 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:58:50 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(455): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(432): Symfony\Component\HttpFoundation\Response->_toString()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(208): Symfony\Component\HttpFoundation\Response->setContent()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(825): Symfony\Component\HttpFoundation\Response->__construct()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(805): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#10 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#11 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#12 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 08:59:38 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(455): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(432): Symfony\Component\HttpFoundation\Response->_toString()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(208): Symfony\Component\HttpFoundation\Response->setContent()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(825): Symfony\Component\HttpFoundation\Response->__construct()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(805): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#10 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#11 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#12 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 09:00:26 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(455): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(432): Symfony\Component\HttpFoundation\Response->_toString()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(208): Symfony\Component\HttpFoundation\Response->setContent()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(825): Symfony\Component\HttpFoundation\Response->__construct()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(805): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#10 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#11 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#12 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[19-Sep-2024 09:00:38 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:355
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(455): Illuminate\Support\Facades\Facade::__callStatic()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(432): Symfony\Component\HttpFoundation\Response->_toString()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/symfony/http-foundation/Response.php(208): Symfony\Component\HttpFoundation\Response->setContent()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(825): Symfony\Component\HttpFoundation\Response->__construct()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(805): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(512): Illuminate\Foundation\Exceptions\Handler->render()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(149): Illuminate\Foundation\Http\Kernel->renderException()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1188): Illuminate\Foundation\Http\Kernel->handle()
+#10 /home/weetlrwh/dashboard.work360.space/public/index.php(17): Illuminate\Foundation\Application->handleRequest()
+#11 /home/weetlrwh/dashboard.work360.space/index.php(21): require_once('/home/weetlrwh/...')
+#12 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 355
+[08-Oct-2024 08:58:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php:938
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(938): ReflectionClass->__construct()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(815): Illuminate\Container\Container->build()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1046): Illuminate\Container\Container->resolve()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(751): Illuminate\Foundation\Application->resolve()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1028): Illuminate\Container\Container->make()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(1559): Illuminate\Foundation\Application->make()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Container\Container->offsetGet()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(352): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php:940
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(815): Illuminate\Container\Container->build()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1046): Illuminate\Container\Container->resolve()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(751): Illuminate\Foundation\Application->resolve()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1028): Illuminate\Container\Container->make()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(1559): Illuminate\Foundation\Application->make()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Container\Container->offsetGet()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(352): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 940
+[08-Oct-2024 09:07:21 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php:938
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(938): ReflectionClass->__construct()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(815): Illuminate\Container\Container->build()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1046): Illuminate\Container\Container->resolve()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(751): Illuminate\Foundation\Application->resolve()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1028): Illuminate\Container\Container->make()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(1559): Illuminate\Foundation\Application->make()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Container\Container->offsetGet()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(352): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php:940
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(815): Illuminate\Container\Container->build()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1046): Illuminate\Container\Container->resolve()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(751): Illuminate\Foundation\Application->resolve()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1028): Illuminate\Container\Container->make()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(1559): Illuminate\Foundation\Application->make()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Container\Container->offsetGet()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(352): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 940
+[08-Oct-2024 09:08:41 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php:938
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(938): ReflectionClass->__construct()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(815): Illuminate\Container\Container->build()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1046): Illuminate\Container\Container->resolve()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(751): Illuminate\Foundation\Application->resolve()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1028): Illuminate\Container\Container->make()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(1559): Illuminate\Foundation\Application->make()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Container\Container->offsetGet()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(352): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php:940
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(815): Illuminate\Container\Container->build()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1046): Illuminate\Container\Container->resolve()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(751): Illuminate\Foundation\Application->resolve()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1028): Illuminate\Container\Container->make()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(1559): Illuminate\Foundation\Application->make()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Container\Container->offsetGet()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(352): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 940
+[08-Oct-2024 09:09:05 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "view" does not exist in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php:938
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(938): ReflectionClass->__construct()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(815): Illuminate\Container\Container->build()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1046): Illuminate\Container\Container->resolve()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(751): Illuminate\Foundation\Application->resolve()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1028): Illuminate\Container\Container->make()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(1559): Illuminate\Foundation\Application->make()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Container\Container->offsetGet()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(352): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#10 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#11 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#12 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#13 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#14 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#15 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render()
+#16 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#17 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#18 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#19 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [view] does not exist. in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php:940
+Stack trace:
+#0 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(815): Illuminate\Container\Container->build()
+#1 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1046): Illuminate\Container\Container->resolve()
+#2 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(751): Illuminate\Foundation\Application->resolve()
+#3 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1028): Illuminate\Container\Container->make()
+#4 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php(1559): Illuminate\Foundation\Application->make()
+#5 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(237): Illuminate\Container\Container->offsetGet()
+#6 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(208): Illuminate\Support\Facades\Facade::resolveFacadeInstance()
+#7 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(352): Illuminate\Support\Facades\Facade::getFacadeRoot()
+#8 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(16): Illuminate\Support\Facades\Facade::__callStatic()
+#9 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(913): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#10 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(888): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#11 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(813): Illuminate\Foundation\Exceptions\Handler->renderHttpException()
+#12 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(704): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#13 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(592): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#14 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Illuminate\Foundation\Exceptions\Handler->render()
+#15 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#16 /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#17 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#18 {main}
+  thrown in /home/weetlrwh/dashboard.work360.space/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 940

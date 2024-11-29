@@ -1,0 +1,10 @@
+{
+    "name": "Mollie",
+    "alias": "Mollie",
+    "description": "",
+    "priority": 205,
+    "version":3.2,
+    "monthly_price": 0,
+    "yearly_price": 0,
+    "package_name":"mollie"
+}
